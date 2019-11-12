@@ -8,11 +8,11 @@ function gakita65(){
 }
 
 function taro65(){
-    alert('太郎')
     who = '太郎';
+    alert('太郎');
 }
 
 function hanako65(){
-    alert('花子')
     who = '花子';
+    alert('花子');
 }
