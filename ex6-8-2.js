@@ -1,3 +1,7 @@
 function kadai682(){
-    document.getElementById('kadai682').src='./image/JUロゴ.png';
+    document.getElementById('logo').src='./image/boy.png';
+}
+
+function kadai682DC(){
+    document.getElementById('logo').src='./image/JUロゴ.png';
 }
