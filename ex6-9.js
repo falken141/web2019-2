@@ -3,5 +3,9 @@ function txtchange1(){
 }
 
 function imgchange1(){
-    document.getElementById('img1').src=''
+    document.getElementById('logo2').src='./image/pledetar.png';
+}
+
+function imgchange1DC(){
+    document.getElementById('logo2').src='./image/JUロゴ.png';
 }
