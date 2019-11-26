@@ -9,6 +9,7 @@
 <script src="ex6-8.js"></script>
 <script src="ex6-8-2.js"></script>
 <script src="ex6-9.js"></script>
+<script src="ex6-10.js"></script>
 </head>
 <body>
 <input type="button" value="ここをクリック" onclick="sayhello();">
@@ -41,5 +42,13 @@
 <input type="button" value="画像の変更" onclick="imgchange1();">
 <input type="button" value="元に戻す" onclick="imgchange1DC();">
 <img src='./image/JUロゴ.png' id="logo2" alt="JosaiLogo"></div>
+<form name="timer">
+<input type="button" value="スタート" onclick="startfnc()">
+<br>
+<input type="text" name="moji" size="30" value="">
+</form>
+<form>
+<input type="button" value="Timer" onclick="setTimeout('mes()',3000)">
+</form>
 </body>
 </html>
