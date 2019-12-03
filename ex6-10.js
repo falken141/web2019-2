@@ -12,7 +12,10 @@ if(cnt<11){
 else{
     //すべて表示されたら、空文字に戻す
     document.timer.moji.value="";
-}}
+}
+//setTimeout()を含む関数を呼び出す
+setTimeout("hyoji()",1000);
+}
 
 function startfnc(){
     //関数hyojiを1000ミリ秒間隔で呼び出す
