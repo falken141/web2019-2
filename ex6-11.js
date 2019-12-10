@@ -14,5 +14,5 @@ else{
     document.timer.moji2.value="";
 }
 //setTimeout()を含む関数を呼び出す
-setTimeout("hyoji611",1000);
+setTimeout('hyoji611',1000);
 }
